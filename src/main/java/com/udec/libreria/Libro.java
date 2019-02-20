@@ -53,11 +53,16 @@ public class Libro {
     /**
     * insertarLibro
     En este metodo es donde se realizara la insercion de los datos para los libros, se ingresara el nombre
-    del Libro, su precio, la cantidad de copias del Libro, par aposteriormente trabajar con dicha informacion
+    del Libro, su precio, la cantidad de copias del Libro, par aposteriormente trabajar con dicha informacion se le deben enviar 
+    * los siguiente parametos
+    * @param autor
+    * @param version
+    * @param precioIndividual
+    * @param nombreLibro
     * @author David
     * @version 1.0
     */       
-    void insertarLibro(){   
+    public void insertarLibro(String autor, String version, int precioIndividual, String nombreLibro){   
     }
     
     

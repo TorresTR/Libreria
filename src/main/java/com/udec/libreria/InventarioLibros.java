@@ -38,7 +38,20 @@ public class InventarioLibros {
         this.cantidadMinima = cantidadMinima;
         this.cantidadMaxima = cantidadMaxima;
     }
+
     
+    /**
+    * insertarInventario
+    * En este metodo es donde se realizara la insercion de los datos para el inventario, los cuales serian el nnombre del 
+    * libro su cantidad maxima y su cantidad minima 
+    * @param nombreLibroInventario
+    * @param cantidadMinima
+    * @param cantidadMaxima
+    * @author David
+    * @version 1.0
+    */  
+        void insertarInventario(String nombreLibroInventario, short cantidadMinima, short cantidadMaxima){
+         }
     
     /**
     * venderLibros
@@ -47,13 +60,14 @@ public class InventarioLibros {
     Cuando la compra sea exitosa se restara de la cantidad en el inventario(la cantidad maxima) y se mostrara una
     cantidad actualizada cuando se quiera relaizar una nueva venta y se sumara en un contador la venta para así llevar 
     un registro del Libro mas vendido
+    * @param nombreLibroInventario
+    * @param nombreCliente
+    * @param cantidadComprada
     * @author David
     * @version 1.0
     */    
 
-     public String venderLibros(){
-        String estadoventa = "";
-        return estadoventa;
+     public void venderLibros(String nombreLibroInventario, String nombreCliente,int cantidadComprada){
         }
       
       
@@ -67,10 +81,8 @@ public class InventarioLibros {
     * @version 1.0
     */    
      
-    public String consultarMasVendido(){
-        String masVendido = "";
-        return masVendido;
-        }
+    public void consultarMasVendido(){
+          }
      
      
     /**
@@ -82,9 +94,7 @@ public class InventarioLibros {
     * @version 1.0
     */    
      
-    public String consultarMasCaro(){
-        String masCaro = "";
-        return masCaro;
+    public void consultarMasCaro(){
         }
       
      /**
@@ -94,9 +104,7 @@ public class InventarioLibros {
     * @author David
     * @version 1.0
     */ 
-    public String consultarMasBarato(){
-        String masBarato = "";  
-        return masBarato;
+    public void consultarMasBarato(){
         }
      
     /**
@@ -107,20 +115,10 @@ public class InventarioLibros {
     * @author David
     * @version 1.0
     */ 
-   public  String consultarMenosVendido(){
-        String menosVendido = "";     
-        return menosVendido;
+   public  void consultarMenosVendido(){
         }
 
-    /**
-    * insertarInventario
-    * En este metodo es donde se realizara la insercion de los datos para el inventario, los cuales serian el nnombre del 
-    * libro su cantidad maxima y su cantidad minima 
-    * @author David
-    * @version 1.0
-    */  
-        void insertarInventario(){
-         }
+
     
     /**
      * getNombreLibroInventario Retorna el nombre del libro en el inventario
